@@ -4,12 +4,18 @@ import _ from 'lodash'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './assets/scss/main.scss'
+import './assets/scss/index.scss'
+import './assets/scss/infoBox.scss'
+
 
 //Import Components
-import SideMenu from './components/sideMenu'
-import AboutMe from './components/aboutMe'
-import Education from './components/education'
+import LeftMenu from './components/leftMenu'
+import InfoPage from './components/infoPage'
+import EducationPage from './components/educationPage'
+import WorkPage from './components/workPage'
+import SkillPage from './components/skillPage'
+import ProjectPage from './components/projectPage'
+
 
 class App extends React.Component {
     render() {
@@ -17,18 +23,17 @@ class App extends React.Component {
             <BrowserRouter>
                 <Container fluid>
                     <Row>
-                        <Col md={2} lg={1}>
-                            <SideMenu />
+                        <Col md={2} lg={2} xl={1}>
+                            <LeftMenu />
                         </Col>
-
-                        <Col md={10} lg={11}>
+                        <Col md={10} lg={10} xl={11}>
                             {/* route to pages */}
                             <Switch>
-                                <Route path="/aboutme" component={AboutMe} exact />
-                                <Route path="/education" component={Education} />
-                                {/* <Route path="/work" component={Work} />
-                                <Route path="/skills" component={Skills} />
-                                <Route path="/projects" component={Projects} /> */}
+                                <Route path="/" component={InfoPage} exact />
+                                <Route path="/education" component={EducationPage} />
+                                <Route path="/work" component={WorkPage} />
+                                <Route path="/skills" component={SkillPage} />
+                                <Route path="/projects" component={ProjectPage} />
                             </Switch>
                         </Col>
                     </Row>

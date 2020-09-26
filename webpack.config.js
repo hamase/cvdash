@@ -71,5 +71,8 @@ module.exports = {
             filename: 'index.html',
             inject: 'body'
         })
-    ]
+    ],
+    externals: {
+        config:  "API", 
+    }
 };

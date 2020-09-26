@@ -1,71 +1,77 @@
-[
-  {
-    "id": 1,
-    "name": "Leanne Graham",
-    "username": "Bret",
-    "email": "Sincere@april.biz",
-    "address": {
-      "street": "Kulas Light",
-      "suite": "Apt. 556",
-      "city": "Gwenborough",
-      "zipcode": "92998-3874",
-      "geo": {
-        "lat": "-37.3159",
-        "lng": "81.1496"
-      }
-    },
-    "phone": "1-770-736-8031 x56442",
-    "website": "hildegard.org",
-    "company": {
-      "name": "Romaguera-Crona",
-      "catchPhrase": "Multi-layered client-server neural-net",
-      "bs": "harness real-time e-markets"
-    }
-  },
-  {
-    "id": 2,
-    "name": "Ervin Howell",
-    "username": "Antonette",
-    "email": "Shanna@melissa.tv",
-    "address": {
-      "street": "Victor Plains",
-      "suite": "Suite 879",
-      "city": "Wisokyburgh",
-      "zipcode": "90566-7771",
-      "geo": {
-        "lat": "-43.9509",
-        "lng": "-34.4618"
-      }
-    },
-    "phone": "010-692-6593 x09125",
-    "website": "anastasia.net",
-    "company": {
-      "name": "Deckow-Crist",
-      "catchPhrase": "Proactive didactic contingency",
-      "bs": "synergize scalable supply-chains"
-    }
-  },
-  {
-    "id": 3,
-    "name": "Clementine Bauch",
-    "username": "Samantha",
-    "email": "Nathan@yesenia.net",
-    "address": {
-      "street": "Douglas Extension",
-      "suite": "Suite 847",
-      "city": "McKenziehaven",
-      "zipcode": "59590-4157",
-      "geo": {
-        "lat": "-68.6102",
-        "lng": "-47.0653"
-      }
-    },
-    "phone": "1-463-123-4447",
-    "website": "ramiro.info",
-    "company": {
-      "name": "Romaguera-Jacobson",
-      "catchPhrase": "Face to face bifurcated interface",
-      "bs": "e-enable strategic applications"
-    }
-  }
-]
+{
+    "education": [
+        {
+            "id": 1,
+            "eduTitle": "Bachelor's degree in Software Engineering",
+            "eduName": "University of Tabarestan",
+            "eduDuration": "09/2009 – 09/2011",
+            "eduPlace": "Chalous, Mazandaran, Iran"
+        },
+        {
+            "id": 2,
+            "eduTitle": "Associate's Degree in Software Engineering",
+            "eduName": "University of Eslamshahr",
+            "eduDuration": "09/2005 – 01/2008",
+            "eduPlace": "Eslamshahr, Tehran, Iran"
+        }
+    ],
+    "work": [
+        {
+            "id": 1,
+            "woTitle": "Front-end Developer",
+            "woName": "GSS",
+            "woDuration": "02/2017 – 06/2020",
+            "woPlace": "Tehran, Iran",
+            "woTasks": "Development of banking devices' software such as VTM, ATM, CRS and Cashless devices. Development of monitoring softwares for banking devices",
+            "woSkills": ["HTML", "CSS", "JavaScript", "JSF", "ExtJs", "JSX", "Reactjs", "antd", "Git", "Bash Script"],
+            "woProjects": ["SMS Panel", "Bus Ticket Cancelation Backoffice", "Faradid Monitoring", "Atlas Application"]
+        },
+        {
+            "id": 2,
+            "woTitle": "Front-end Developer",
+            "woName": "Freelance",
+            "woDuration": "05/2015 – 01/2017",
+            "woPlace": "Tehran, Iran",
+            "woTasks": "Develope website for customers",
+            "woSkills": ["HTML", "CSS", "JavaScript", "JQuery", "Bower", "Materialize", "Foundation", "Bootstrap", "Grunt", "Gulp", "Git", "Reactjs", "antd", "React Bootstrap"],
+            "woProjects": ["Thirdad", "Zentex", "Bidbarg"]
+        },
+        {
+            "id": 3,
+            "woTitle": "Software Tester",
+            "woName": "Parspooyesh Fanavar",
+            "woDuration": "06/2013 – 03/2015",
+            "woPlace": "Tehran, Iran",
+            "woTasks": "developed unit test by Python and Selenium for website, to does some work as automate. Like login, add user, add group, etc.",
+            "woSkills": ["Python", "Selenium", "HTML", "CSS"],
+            "woProjects": ["IBSng", "PCC"]
+        }
+    ],
+    "skill": [
+        {
+            "id": 1,
+            "sklName": [
+                {"id": 1, "sklTitle": "JS Framework/Library", "lists": [{"name": "ReactJs"}, {"name": "React Native"}, {"name": "JavaScript"}, {"name": "JSX"}, {"name": "JSF"}, {"name": "ExtJs"}]},
+                {"id": 2, "sklTitle": "CSS Framework", "lists": [{"name": "CSS3"}, {"name": "Sass"}, {"name": "Less"}, {"name": "Bootstrap"}, {"name": "Foundation"}, {"name": "Materialize"}, {"name": "Antd"}]},
+                {"id": 3, "sklTitle": "Package Manager/Bundler", "lists": [{"name": "NPM"}, {"name": "Gulp"}, {"name": "Grunt"}, {"name": "Bower"}, {"name": "Webpack"}]}, 
+                {"id": 4, "sklTitle": "OS", "lists": [{"name": "Linux"}, {"name": "Windows"}]},
+                {"id": 5, "sklTitle": "Version Control", "lists": [{"name": "Git"}]}
+            ]
+        }
+    ],
+    "project": [
+        {
+            "id": 1,
+            "prjName": "Thirdad",
+            "prjHref": "https://www.3rdad.com/"
+            },{
+                "id": 2,
+                "prjName": "Zentex",
+                "prjHref": "https://gitlab.com/hamase/zentex"
+                },{
+                    "id": 3,
+                    "prjName": "Bidbarg",
+                    "prjHref": "https://www.bidbarg.com/"
+                }
+            ]
+        }
