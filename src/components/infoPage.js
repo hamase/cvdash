@@ -17,14 +17,10 @@ export default class InfoPage extends React.Component {
                             <div className="info_box--img img-responsive"><img src={profile} /></div>
                             <div className="info_box--desc">
                                 <h2>Hi, I'm Hamase Shah Abbaspour</h2>
-                                <h5>I'm Front-end Developer, and enjoy to learning everything and use that in my projects
-                                I working with ReactJs, React Native, HTML, CSS, Webpack and etc.<br></br>
-                                I learning every thing self study
-                                I started my work in 2013 in Parspooyesh Fanavar Co., i developed Unittest by Selenium and Python <br></br>
-                                 and a CMS site, that was just HTML and CSS. <br></br>
-                                After that i worked as seriously with JQuery and JavaScript. I worked as freelance more that a year. <br></br>
-                                Then i worked in GSS and developed banking devices software, CMS sites and etc. with JavaScript, JSX, Extjs, JSF<br></br>
-                                Now i worked with ReactJS and React Native
+                                <h5>I'm Front-end Developer, i enjoy to learn everything and use that in my projects. <br></br>
+                                I learning every thing self study. I started my work in 2013 in worked with Selenium, Python, HTML and CSS. <br></br>
+                                After that i worked as seriously with JQuery and JavaScript. worked as freelance more than a year. <br></br>
+                                Then worked in GSS with JavaScript, JSX, Extjs, JSF Now i worked with ReactJS and React Native.
                             </h5>
                             </div>
                             <div className="info_box--social">
